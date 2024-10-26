@@ -1,0 +1,94 @@
+.navbar {
+    font-weight: bold;
+    color: white; /* Bootstrap: text-white */
+    text-decoration: none;
+    font-size: 20px;
+    width: 100%;
+}
+
+.collapse {
+    display: flex;
+    align-items: right;
+    color: white; /* Bootstrap: text-white */
+}
+
+.nav-link {
+    color: white; /* Bootstrap: text-white */
+}
+
+.card {
+    border: 1px solid #d1d1d1; /* Bootstrap: border-secondary */
+    justify-content: center;
+}
+
+.card-title {
+    font-size: 20pt;
+    color: #212529; /* Bootstrap: text-dark */
+}
+
+.card-text {
+    font-size: 16pt;
+    color: #707070; /* Bootstrap: text-secondary */
+}
+
+.card-old-price {
+    font-size: 16pt;
+    text-align: right;
+    color: #707070; /* Bootstrap: text-secondary */
+    display: flex;
+    align-items: flex-end;
+}
+
+.card-price {
+    font-size: 20pt;
+    font-weight: medium;
+    text-align: right;
+    display: flex;
+    margin-left: 20px;
+    align-items: flex-end;
+}
+
+.row-prices {
+    display: flex;
+    justify-content: right;
+}
+
+.card-address {
+    color: #707070; /* Bootstrap: text-secondary */
+    font-size: 13pt;
+}
+
+.footer {
+    font-size: 16pt;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.navbar-custom {
+    background: linear-gradient(to right, #28A745, #28A745); /* Bootstrap: bg-success */
+}
+
+.navbar-nav {
+    background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    -webkit-background-clip: text;
+    background-clip: text; /* Añadido para compatibilidad */
+    -webkit-text-fill-color: transparent;
+    transition: background 5s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffffff; /* Bootstrap: text-white */
+    background-color: #9ec0a672; /* Bootstrap: bg-success with opacity */
+    border-radius: 5px; /* Añade bordes redondeados */
+    transition: background-color 0.3s ease; /* Suaviza la transición del color de fondo */
+}
